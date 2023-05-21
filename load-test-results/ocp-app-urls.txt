@@ -1,0 +1,21 @@
+----Go-----
+http://go-basic-garima-joshi-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com
+
+
+
+------Quarkus--------
+http://code-with-quarkus-garima-joshi-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com
+
+
+-------Java SpringBoot-----
+http://java-springboot-basic-garima-joshi-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com
+
+
+-----NodeJS----------------
+http://nodejs-basic-garima-joshi-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com
+
+
+---OCP COnsole URL ---------
+
+https://console-openshift-console.apps.sandbox-m2.ll9k.p1.openshiftapps.com/topology/ns/garima-joshi-dev?selectId=4c8d89e6-2540-42b1-afad-2f27b11db05a&view=graph
+

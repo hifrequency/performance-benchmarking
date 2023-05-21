@@ -1,0 +1,54 @@
+➜  ~ ab -c 100 -n 1000 http://java-springboot-basic-garima-joshi-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com/
+This is ApacheBench, Version 2.3 <$Revision: 1901567 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking java-springboot-basic-garima-joshi-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com (be patient)
+Completed 100 requests
+Completed 200 requests
+Completed 300 requests
+Completed 400 requests
+Completed 500 requests
+Completed 600 requests
+Completed 700 requests
+Completed 800 requests
+Completed 900 requests
+Completed 1000 requests
+Finished 1000 requests
+
+
+Server Software:
+Server Hostname:        java-springboot-basic-garima-joshi-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com
+Server Port:            80
+
+Document Path:          /
+Document Length:        12 bytes
+
+Concurrency Level:      100
+Time taken for tests:   5.163 seconds
+Complete requests:      1000
+Failed requests:        0
+Total transferred:      290000 bytes
+HTML transferred:       12000 bytes
+Requests per second:    193.70 [#/sec] (mean)
+Time per request:       516.252 [ms] (mean)
+Time per request:       5.163 [ms] (mean, across all concurrent requests)
+Transfer rate:          54.86 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      101  117   5.9    118     133
+Processing:   111  335 153.1    284     979
+Waiting:      111  334 153.1    284     978
+Total:        215  452 153.5    402    1098
+
+Percentage of the requests served within a certain time (ms)
+  50%    402
+  66%    419
+  75%    502
+  80%    545
+  90%    685
+  95%    788
+  98%    984
+  99%    998
+ 100%   1098 (longest request)
